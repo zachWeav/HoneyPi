@@ -2,8 +2,8 @@
 
 ## Test Plan Identifier:
 
-Each test case provided will be labeled as "TC-01", "TC-02", etc. Using this labeling convention will
-allow for easy location between both this test case document, and the excel document that will be
+Each test case provided will be labeled as "HPI-TC01", "HPI-TC02", etc. Using this labeling convention will
+allow for easy location between both this test case document, and the Excel document that will be
 used for test case execution.
 
 ## Introduction:
