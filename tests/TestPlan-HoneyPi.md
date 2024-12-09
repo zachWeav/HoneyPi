@@ -11,9 +11,9 @@ used for test case execution.
 
 ## References:
 
-Link for the project repository: 
+Link for the project repository: <https://github.com/zachWeav/HoneyPi/tree/master>
 
-Proposal document:
+Proposal Document: <https://github.com/zachWeav/HoneyPi/blob/master/docs/CSCI497 - Project Proposal_ZachWeaver.pdf>
 
 Requirements document:
 
