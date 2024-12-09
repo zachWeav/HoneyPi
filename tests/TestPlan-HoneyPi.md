@@ -7,8 +7,23 @@ allow for easy location between both this test case document, and the Excel docu
 used for test case execution.
 
 ## Introduction:
+ 
+The purpose of this test plan is to ensure the functionality, reliability, and security of the 
+HoneyPi device, a portable intrusion detection system designed to emulate decoy services and collect 
+valuable data on potential cyberattacks. Testing the device is critical to validating its capabilities, 
+identifying vulnerabilities, and ensuring it meets the intended objectives as an educational tool for 
+analyzing common cyberattack techniques. This test plan outlines the approaches and methodologies that 
+will be used to verify the effectiveness of the HoneyPi system under various conditions and use cases.
 
-This test plan will detail all the relevant cases that will be used to test the HoneyPi device.
+The HoneyPi device will undergo three primary types of testing: ad hoc testing, unit testing, and crowdsourced 
+testing. __Ad hoc__ testing will be conducted during the configuration and development phase to provide immediate 
+feedback on the system’s performance. These tests will allow for rapid identification of bugs and design flaws, 
+ensuring the iterative development process is efficient. __Unit testing__ will follow a more structured approach, 
+focusing on individual components of the device, such as container orchestration, honeypot logging mechanisms, 
+and network interactions. These tests will be documented in an Excel spreadsheet, specifying test cases, expected results, 
+and any deviations observed. Finally, __crowdsourced__ testing will involve peers and collaborators who will use a predefined
+test plan and survey to evaluate the device in real-world scenarios. This phase will collect valuable external feedback, 
+offering diverse perspectives on the device's usability, functionality, and overall design.
  
 
 
