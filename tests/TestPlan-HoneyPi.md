@@ -8,6 +8,9 @@ used for test case execution.
 
 ## Introduction:
 
+This test plan will detail all the relevant cases that will be used to test the HoneyPi device.
+ 
+
 
 ## References:
 
