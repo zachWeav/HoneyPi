@@ -24,8 +24,13 @@ and network interactions. These tests will be documented in an Excel spreadsheet
 and any deviations observed. Finally, __crowdsourced__ testing will involve peers and collaborators who will use a predefined
 test plan and survey to evaluate the device in real-world scenarios. This phase will collect valuable external feedback, 
 offering diverse perspectives on the device's usability, functionality, and overall design.
- 
 
+Several constraints may impact the testing procedures. The HoneyPi device relies on the availability of local network environments, 
+meaning some tests may be limited by variations in network configurations or restrictions imposed by firewalls and routing policies. 
+Additionally, the Raspberry Pi hardware may introduce resource limitations, such as restricted processing power or memory, which could 
+affect the performance of the decoy services under high activity. Testers must also adhere to ethical and legal guidelines, ensuring that 
+the device is only tested on authorized networks and systems with explicit permission. Despite these constraints, the test plan aims to 
+provide a comprehensive assessment of the HoneyPi device’s capabilities while maintaining compliance with ethical standards.
 
 ## References:
 
@@ -42,16 +47,33 @@ Requirements document: <https://github.com/zachWeav/HoneyPi/blob/master/docs/CSC
 
 ## Device Features to be Tested:
 
--   Scanning Device for open ports
+-   Scanning Device for open ports.
 
--   Decoy SSH server connection
+-   Decoy Service Availability
 
--   Decoy SQL Database connection
+-   Decoy SSH server connection.
 
+-   Decoy SQL Database connection.
 
+-   Container Remote Command Execution.
+
+-   Container Intrusion Logging Mechanisms.
+
+-   Container Orchestration Monitoring & Metrics Reporting.
+
+-   Raspberry Pi Host Security
 
 ## Features Not to be Tested:
 
+-  Specific Raspberry Pi Device Configuration
+
+-  Advanced Threat Analysis
+
+-  Compatibility Across All Network Environments
+
+-  Device Hardware Resilience
+
+-  Integration with Other Security Mechanisms
 
 ## Approach:
 
