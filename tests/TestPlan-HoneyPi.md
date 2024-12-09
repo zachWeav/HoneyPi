@@ -13,9 +13,9 @@ used for test case execution.
 
 Link for the project repository: <https://github.com/zachWeav/HoneyPi/tree/master>
 
-Proposal Document: <https://github.com/zachWeav/HoneyPi/blob/master/docs/CSCI497 - Project Proposal_ZachWeaver.pdf>
+Proposal Document: <https://github.com/zachWeav/HoneyPi/blob/master/docs/CSCI497_ProjectProposal_ZachWeaver.pdf>
 
-Requirements document:
+Requirements document: <https://github.com/zachWeav/HoneyPi/blob/master/docs/CSCI497_ProjectRequirements_ZachWeaver.pdf>
 
 
 ## Test Items:
