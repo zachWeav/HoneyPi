@@ -105,7 +105,8 @@ with no additional issues found, then the test will be considered a pass.
 
 ## HoneyPi Test Cases:
 
-
+All test cases that will be used in unit testing can be found in the provided excel document:
+<https://github.com/zachWeav/HoneyPi/blob/master/tests/HoneyPi_TestCases.xls>
 
 ## Suspension Criteria and Resumption Requirements:
 
