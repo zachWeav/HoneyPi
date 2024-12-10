@@ -136,9 +136,9 @@ Testing milestones:
 
 -   Test Plan Completed: __12/9/2024__
 
--   Ad hoc tests: __12/30/2024__
+-   Ad Hoc Testing: __12/30/2024__
 
--   Soft-Tests: __1/13/25 - 1/24/25__
+-   Unit-Testing: __1/13/25 - 1/24/25__
 
 -   Crowdsourced Testing: __1/27/25 - 2/07/25__
 
@@ -152,8 +152,26 @@ Testing milestones:
 
 ## Responsibilities:
 
+Project Developer (myself):
 
+-   As the project developer, I will be conducting all testing procedures
+    to be completed by myself and fellow students.  Furthermore, I will be responsible for
+    creating all required documentation, and applying any updated functionality to the
+    device
+  
 ## Risks:
+
+-   __Device Misconfiguration:__ Errors in configuring the decoy services, network settings, or
+      logging mechanisms might lead to inaccurate results or failure to capture critical data.
+
+-  __System Security:__ The HoneyPi device is intentionally designed to attract potential attackers.
+     If not isolated properly, it might inadvertently expose the network or other devices to potential vulnerabilities.
+
+-  __Inconsistent Testing Environments:__ Ad hoc and crowdsourced testing may introduce inconsistent network conditions
+     or varying technical expertise, leading to uneven testing results.
+
+-  __Resource Constraints:__ The HoneyPi hardware may be insufficient to handle extensive testing, such as simultaneous
+     attacks or high traffic volumes.
 
 
 ## Assumptions and Dependencies:
