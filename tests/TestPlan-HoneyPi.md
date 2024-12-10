@@ -157,7 +157,7 @@ Project Developer (myself):
 -   As the project developer, I will be conducting all testing procedures
     to be completed by myself and fellow students.  Furthermore, I will be responsible for
     creating all required documentation, and applying any updated functionality to the
-    device
+    device.
   
 ## Risks:
 
@@ -176,4 +176,28 @@ Project Developer (myself):
 
 ## Assumptions and Dependencies:
 
+>   Device Testing Assumptions:
 
+-  Excluding myself, I will have 5-8 testers
+
+-  Each tester will provide valuable feedback
+
+-  Each tester will have the technical knowlege required
+
+-  Device configuration stability
+
+-  Logging and monitoring functionality
+
+>   Device Testing Dependancies:
+
+-  Hardware and Networking
+
+-  Docker and Docker Compose are configured and running properly
+
+-  Cronjobs are setup to automatically run each container upon system startup
+
+-  NMAP is installed and available to conduct network scans
+
+-  External client can connect to SSH and mySQL container services
+
+-  Project Requirements Documentaion
