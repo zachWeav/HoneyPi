@@ -77,6 +77,13 @@ Requirements document: <https://github.com/zachWeav/HoneyPi/blob/master/docs/CSC
 
 ## Approach:
 
+Testing the HoenyPi will begin with smaller tests being executed as each docker container is being
+configured.  Once all containers are fully built and running emulated services, soft-tests involving individual test
+cases will be executed to ensure the device meets all requirements in the project requirements document.  Upon successfully
+passing all test cases found in the test case excel document, I will select multiple peers to test the connectivity of each
+emulated service and provide valuable feedback and recommendations through a google form.  Any final developments and security
+checks will be then be completed before the device is packaged for final deployment.
+
 
 ## Item Pass/Fail Criteria:
 
@@ -112,6 +119,11 @@ with no additional issues found, then the test will be considered a pass.
 
 ## Test Environment:
 
+The testing environment will primarily involve scanning and connecting to the physical HoneyPi device
+from an external machine.  While most tests will be conducted by connecting to the Raspberry Pi via SSH,
+I will allow each selected tester to connect to the HoneyPi from their own prefered machine.  Crowdsourced tests will
+be conducted under close supervision to ensure all procedures are conducted properly as outlined in the test
+cases.
 
 ## Estimate:
 
@@ -122,13 +134,21 @@ device and every tool being used is open sourced and available for public use.
 
 Testing milestones:
 
--   Test Plan Completed: 12/9/2024
+-   Test Plan Completed: __12/9/2024__
 
--   Ad hoc tests: 12/30/2024
+-   Ad hoc tests: __12/30/2024__
 
--   Soft-Tests:
+-   Soft-Tests: __1/13/25 - 1/24/25__
 
--   Peer-Tests: 
+-   Crowdsourced Testing: __1/27/25 - 2/07/25__
+
+-   Analyzing Testing Feedback: __2/14/25__
+
+-   Error Fixing: __2/28/25__
+
+-   Applying Device Updates: __3/28/25__
+
+-   Official Testing Report: __4/11/25__
 
 ## Responsibilities:
 
